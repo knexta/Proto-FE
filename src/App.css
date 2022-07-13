@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nav-height: 80px;
+  --footer-height: 80px;
+}
+
+.NavBar-Height {
+  height: var(--nav-height);
+}
+
+.Footer-Height {
+  height: var(--footer-height);
+}
+
+.Body-Height {
+  min-height: calc(100vh - var(--footer-height) - var(--nav-height));
+}
