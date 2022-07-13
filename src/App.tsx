@@ -44,7 +44,7 @@ const App: React.FC = () => {
     (async () => {
       if (!signer) return;
       if (!profile.address) return;
-      const Add = "0xFa38bF02bc62c3b2b35abD3680f94705c0efA025";
+      const Add = "0x7a7DC6faDcF7eBD46e034D2efB17d829899ED7D1";
       const contract = new Contract(Add, abi.abi, signer);
       setContract(contract);
 
